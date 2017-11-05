@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Sticky Notes",
+  "version": "1.0",
+
+  "description": "Adds sticky notes on the screen",
+
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+
+  "browser_action": {
+    "default_icon": "icons/48.png",
+    "default_title": "Sticky Notes",
+    "default_popup": "popup/index.html"
+  },
+
+"permissions": ["storage"]
+}
